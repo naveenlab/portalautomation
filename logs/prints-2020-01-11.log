@@ -1,0 +1,7 @@
+10:57:19.881 [main] INFO  qaportal.Base - Company Tab is displayed in navbar
+10:57:19.959 [main] INFO  qaportal.Base - Flight Tab is displayed in navbar
+10:57:20.035 [main] INFO  qaportal.Base - Home is displayed in navbar
+10:57:20.551 [main] INFO  qaportal.Base - Screenshot captured for Test Case:======= validateLogo=========
+10:57:20.610 [main] INFO  qaportal.Base - Tour Tab is displayed in navbar
+10:57:24.948 [main] INFO  qaportal.Base - Driver is closed
+10:57:30.411 [main] INFO  qaportal.Base - Driver is initialized

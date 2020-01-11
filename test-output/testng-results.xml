@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14313" started-at="2020-01-05T23:57:36 IST" finished-at="2020-01-05T23:57:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14313" started-at="2020-01-05T23:57:36 IST" finished-at="2020-01-05T23:57:50 IST">
+      <class name="qaportal.ValidateLoginPageTabAndLogo">
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:qaportal.ValidateLoginPageTabAndLogo@3d5c822d]" name="launchDriver" is-config="true" duration-ms="9545" started-at="2020-01-05T23:57:36 IST" finished-at="2020-01-05T23:57:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="validateComapnyTab()[pri:0, instance:qaportal.ValidateLoginPageTabAndLogo@3d5c822d]" name="validateComapnyTab" duration-ms="264" started-at="2020-01-05T23:57:46 IST" finished-at="2020-01-05T23:57:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateComapnyTab -->
+        <test-method status="PASS" signature="validateFlightTab()[pri:0, instance:qaportal.ValidateLoginPageTabAndLogo@3d5c822d]" name="validateFlightTab" duration-ms="95" started-at="2020-01-05T23:57:46 IST" finished-at="2020-01-05T23:57:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFlightTab -->
+        <test-method status="PASS" signature="validateHomeTab()[pri:0, instance:qaportal.ValidateLoginPageTabAndLogo@3d5c822d]" name="validateHomeTab" duration-ms="45" started-at="2020-01-05T23:57:46 IST" finished-at="2020-01-05T23:57:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeTab -->
+        <test-method status="FAIL" signature="validateLogo()[pri:0, instance:qaportal.ValidateLoginPageTabAndLogo@3d5c822d]" name="validateLogo" duration-ms="58" started-at="2020-01-05T23:57:46 IST" finished-at="2020-01-05T23:57:46 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect to find [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect to find [false] but found [true]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertFalse(Assert.java:65)
+at org.testng.Assert.assertFalse(Assert.java:75)
+at qaportal.ValidateLoginPageTabAndLogo.validateLogo(ValidateLoginPageTabAndLogo.java:34)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+        <test-method status="PASS" signature="validateTourTab()[pri:0, instance:qaportal.ValidateLoginPageTabAndLogo@3d5c822d]" name="validateTourTab" duration-ms="59" started-at="2020-01-05T23:57:46 IST" finished-at="2020-01-05T23:57:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTourTab -->
+        <test-method status="PASS" signature="closeBrower()[pri:0, instance:qaportal.ValidateLoginPageTabAndLogo@3d5c822d]" name="closeBrower" is-config="true" duration-ms="4114" started-at="2020-01-05T23:57:46 IST" finished-at="2020-01-05T23:57:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrower -->
+      </class> <!-- qaportal.ValidateLoginPageTabAndLogo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+00:03:27.588 [main] INFO  qaportal.Base - Driver is closed
+00:03:32.972 [main] INFO  qaportal.Base - Driver is initialized
+00:03:36.058 [main] INFO  qaportal.Base - Landing to Home page
+00:03:36.902 [main] INFO  qaportal.Base - Driver closed
+21:14:22.297 [main] INFO  qaportal.Base - Driver is initialized
+21:14:26.283 [main] INFO  qaportal.Base - Landing to Home page
+21:14:26.484 [main] INFO  qaportal.Base - Company Tab is displayed in navbar
+21:14:26.542 [main] INFO  qaportal.Base - Flight Tab is displayed in navbar
