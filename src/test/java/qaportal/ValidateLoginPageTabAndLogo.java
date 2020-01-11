@@ -31,8 +31,8 @@ public class ValidateLoginPageTabAndLogo extends Base {
 		//driver.get("https://www.phptravels.net/login");
 		login = new LoginPage(driver);
 		boolean isDisplayedlogo = login.organisationLogo().isDisplayed();
-		Assert.assertTrue(isDisplayedlogo);
-		log.info("Logo is diaplayed in left corner of the application");
+		Assert.assertFalse(isDisplayedlogo);
+		log.info("Logo is diaplayed in left corner of the application Landing Page");
 		
 		}
 	
@@ -76,8 +76,5 @@ public class ValidateLoginPageTabAndLogo extends Base {
 		
 	}
 	
-	
-	
-
 }
 
