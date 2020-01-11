@@ -80,3 +80,4 @@ public class ValidateLoginPageTabAndLogo extends Base {
 	
 
 }
+
