@@ -10,19 +10,19 @@ import com.crm.qa.base.TestBase;
 public class LoginPage extends TestBase{
 	
 	//Page Factory - OR:
-	@FindBy(name="username")
+	@FindBy(name="email")
 	WebElement username;
 	
 	@FindBy(name="password")
 	WebElement password;
 	
-	@FindBy(xpath="//input[@type='submit']")
+	@FindBy(xpath="//span[text()='Log In']/..")
 	WebElement loginBtn;
 	
-	@FindBy(xpath="//button[contains(text(),'Sign Up')]")
-	WebElement signUpBtn;
+	@FindBy(xpath="//div[@class='ui fluid large blue submit button']")
+	WebElement login;
 	
-	@FindBy(xpath="//img[contains(@class,'img-responsive')]")
+	@FindBy(xpath="//a[@class='brand-name']")
 	WebElement crmLogo;
 	
 	//Initializing the Page Objects:
@@ -40,11 +40,15 @@ public class LoginPage extends TestBase{
 	}
 	
 	public HomePage login(String un, String pwd){
+		loginBtn.click();
 		username.sendKeys(un);
 		password.sendKeys(pwd);
-		//loginBtn.click();
-		    	JavascriptExecutor js = (JavascriptExecutor)driver;
-		    	js.executeScript("arguments[0].click();", loginBtn);
+		login.click();
+		
+		/*
+		 * JavascriptExecutor js = (JavascriptExecutor)driver;
+		 * js.executeScript("arguments[0].click();", loginBtn);
+		 */
 		    	
 		return new HomePage();
 	}

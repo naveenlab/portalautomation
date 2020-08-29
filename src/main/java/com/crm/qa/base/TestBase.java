@@ -37,17 +37,20 @@ public class TestBase {
 	}
 	
 	
-	public static void initialization(){
+	public static void initialization() throws InterruptedException{
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", "/Users/naveenkhunteta/Downloads/chromedriver");	
+			System.setProperty("webdriver.chrome.silentOutput", "true");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\navee\\Downloads\\chrome80\\chromedriver.exe");
 			driver = new ChromeDriver(); 
 		}
-		else if(browserName.equals("FF")){
-			System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
-			driver = new FirefoxDriver(); 
-		}
+		/*
+		 * else if(browserName.equals("FF")){
+		 * System.setProperty("webdriver.gecko.driver",
+		 * "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver"); driver = new
+		 * FirefoxDriver(); }
+		 */
 		
 		
 		e_driver = new EventFiringWebDriver(driver);
