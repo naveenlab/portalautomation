@@ -3,6 +3,8 @@ package com.onlineClass.warmup;
 import java.util.Scanner;
 
 public class Recursion {
+	
+	int Recursion = 10;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
